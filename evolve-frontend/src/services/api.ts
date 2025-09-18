@@ -11,7 +11,7 @@ import type {
 // const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
 
 class ApiService {
-  private readonly CHAT_BASE_URL = 'https://86p6qcml-5000.inc1.devtunnels.ms';
+  private readonly CHAT_BASE_URL = 'http://127.0.0.1:5000';
 
   async queryBackend(query: string): Promise<ApiResponse<any>> {
     try {
